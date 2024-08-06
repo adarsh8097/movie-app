@@ -1,0 +1,43 @@
+
+#content{
+     border: 1px solid rgb(22, 22, 22);
+     margin-top: 7rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 500px;
+    margin-left: 16rem;
+    height: 400px;
+    border-radius: 0.5rem;
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/09/19/36/zoo-8378189_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+   background-attachment: center;
+   
+}
+
+#content:hover{
+    border: 1px solid rgb(126, 124, 230);
+}
+
+input::placeholder{
+     font-size: 1.2rem;
+      padding: 10px;
+      font-weight: bold;
+
+}
+
+.usedata input{
+    margin: 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+.usedata input:hover{
+     border: 2px solid rgb(111, 111, 206);
+}
+
+.loginbtn{
+    
+}
