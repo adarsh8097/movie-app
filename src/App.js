@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import './App.css';
+import MovieCard from './Component/MovieCard';
+import MainRoutes from './Pages/MainRoutes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +19,12 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <div>
+        {/* <h1>This is new page</h1> */}
+        {/* <MovieCard/> */}
+        <MainRoutes/>
+      </div>
     </div>
   );
 }

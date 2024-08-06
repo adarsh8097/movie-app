@@ -1,0 +1,27 @@
+
+.movie-logo{
+     text-transform: capitalize;
+     font-weight: 800;
+     margin-left: 30px;
+     /* padding: 10px; */
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+    padding: 5px;
+   border-bottom: 1px solid black;
+   position: fixed;
+   z-index: 100;
+   width: 100vw;
+   background-color: rgb(253, 251, 251);
+}
+ul{
+    /* text-align: center; */
+    list-style: none;
+    padding: 10px;
+    display: flex;
+     gap: 30px;
+     cursor: pointer;
+     font-weight: 700;
+}
