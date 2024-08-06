@@ -3,6 +3,7 @@ import {Route, Routes} from 'react-router';
 
 import HomePage from "./HomePage";
 import Layout from "../Layout/LayOut";
+import MovieDetails from "./MovieListdetails";
 
 function MainRoutes(){
      return(
@@ -10,6 +11,7 @@ function MainRoutes(){
             <Layout>
                    <Routes>
                     <Route path="/Home" element={<HomePage/>}/>
+                    <Route path="movie/:id" element={<MovieDetails/>}/>
                     </Routes>
                    </Layout>
                 

@@ -24,7 +24,7 @@ aside {
   margin-top: 4.5rem;
   height: 100vh;
   position:fixed;
-  border-right: 2px solid black;
+  border-right: 1px solid rgb(216, 215, 215);
   /* border-top:2px solid black; */
   z-index: 100;
   text-align: center;
